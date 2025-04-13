@@ -87,17 +87,15 @@ export default function Data({ expenses, deleteExpense }) {
       )}
 
       <footer >
-
         <div className="text-center text-muted mt-4">
         <hr className="border-t-2 border-[#87CEEB]" />
-
           <p className="text-sm mt-4">This is a simple expense tracker application.</p>
           <p className="text-sm">Developed by <strong className="text-[blue]"> Adnan Rafiq</strong></p>
           &copy; {new Date().getFullYear()} Adnan Rafiq. All rights reserved.
         </div>
         
         <div className="text-center text-muted mt-2">
-          <a href="/https://adnanportfolio-lime.vercel.app/" className="text-primary">Vist my site</a>
+          <a href="https://adnanportfolio-lime.vercel.app/" className="text-primary" >Vist my site</a>
         </div>
       </footer>
     </div>
